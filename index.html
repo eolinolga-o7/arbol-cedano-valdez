@@ -1,0 +1,848 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow, noarchive"><title>Árbol Cedano Valdez</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Cormorant+SC:wght@500;600&family=Crimson+Pro:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+/* Layout: engraved heritage chart — the founding couple as a crest, a fan of twelve medallions, then one leaf per child in flowing columns */
+:root{
+  --paper:#F4F5EF; --leaf:#FCFCF8; --ink:#1E2721; --muted:#6A7466;
+  --rule:#CDD3C4; --accent:#3D5C47; --gilt:#A2844A; --hit:#E8E2C9;
+  --ink2:#454F46; --line2:#7E8A7A; --deadbg:#EEF0EA;
+  --glow:#EBDDB4; --orn:#B08E4E; --orn2:#7F8F5E;
+  --g-stem:#A3BF9A; --g-l1:#BCD8B0; --g-l2:#A6D4C1; --g-l3:#D3E3AE; --g-f1:#F4C3CF; --g-f2:#D5CAEE; --g-f3:#F8D5B9; --g-c:#F4E19C; --g-op:.85;
+  --gl-a:#EFDDA6; --gl-b:#B88E40; --gl-v:#8A6826; --gl-s:#5E5036; --gl-op:.92;
+  --display:"Cormorant Garamond",Garamond,"Times New Roman",serif;
+  --caps:"Cormorant SC","Cormorant Garamond",Garamond,serif;
+  --body:"Crimson Pro",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#131712; --leaf:#1A1F19; --ink:#E5E8DF; --muted:#9BA494;
+    --rule:#333B31; --accent:#A3C2A9; --gilt:#CDB277; --hit:#3A3622; color-scheme:dark;
+    --ink2:#BEC6B6; --line2:#7D8977; --deadbg:#161A15;
+    --glow:#2B2617; --orn:#B4975A; --orn2:#71805A;
+    --g-stem:#566E50; --g-l1:#4F6C4A; --g-l2:#3F675A; --g-l3:#5F6B43; --g-f1:#8C606B; --g-f2:#696088; --g-f3:#8E6D56; --g-c:#90813F; --g-op:.5;
+    --gl-a:#CDB06A; --gl-b:#7A5D2A; --gl-v:#4F3B18; --gl-s:#A08A62; --gl-op:.62;
+    --bs:28%; --bl:66%;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131712; --leaf:#1A1F19; --ink:#E5E8DF; --muted:#9BA494;
+  --rule:#333B31; --accent:#A3C2A9; --gilt:#CDB277; --hit:#3A3622; color-scheme:dark;
+    --ink2:#BEC6B6; --line2:#7D8977; --deadbg:#161A15;
+    --glow:#2B2617; --orn:#B4975A; --orn2:#71805A;
+    --g-stem:#566E50; --g-l1:#4F6C4A; --g-l2:#3F675A; --g-l3:#5F6B43; --g-f1:#8C606B; --g-f2:#696088; --g-f3:#8E6D56; --g-c:#90813F; --g-op:.5;
+    --gl-a:#CDB06A; --gl-b:#7A5D2A; --gl-v:#4F3B18; --gl-s:#A08A62; --gl-op:.62;
+  --bs:28%; --bl:66%;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.page{position:relative;max-width:1400px;margin:0 auto;padding-inline:clamp(16px,6.5vw,110px);padding-block:clamp(36px,6vw,72px) 80px}
+body{position:relative}
+.page{z-index:1}
+#garden{position:absolute;left:0;top:0;width:100%;pointer-events:none;z-index:0;opacity:var(--gl-op)}
+.crest .orn{color:var(--gilt)}
+
+/* crest */
+.crest{text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
+.orn{color:var(--gilt);width:min(320px,70vw);height:auto}
+.kicker{font-family:var(--caps);letter-spacing:.24em;font-size:14px;color:var(--muted);margin:0}
+h1{font-family:"Pinyon Script","Snell Roundhand","Apple Chancery",cursive;font-weight:400;font-size:clamp(52px,9.5vw,112px);line-height:1.15;margin:0;padding-inline:.15em;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.couple{font-family:var(--display);font-size:clamp(20px,2.6vw,26px);margin:4px 0 0;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;align-items:baseline}
+.couple .ring{color:var(--gilt);font-size:.9em}
+.facts{font-family:var(--caps);font-size:15px;letter-spacing:.14em;color:var(--muted);margin:0}
+
+/* fan of twelve */
+.fan{margin:44px auto 0;position:relative;max-width:1080px}
+.fan::before{content:"";position:absolute;left:4%;right:4%;top:0;border-top:1px solid var(--rule)}
+.fan ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(12,1fr);gap:0}
+.fan li{position:relative;padding-top:22px;text-align:center}
+.fan li::before{content:"";position:absolute;top:0;left:50%;height:22px;border-left:1px solid var(--rule)}
+.fan a{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:var(--ink);padding:0 2px}
+.med{width:38px;height:38px;border-radius:50%;border:1px solid var(--gilt);display:grid;place-items:center;font-family:var(--caps);font-size:15px;color:var(--accent);background:var(--leaf);transition:background .2s,color .2s}
+.fan a:hover .med,.fan a:focus-visible .med{background:var(--accent);color:var(--leaf);border-color:var(--accent)}
+.fan .fn{font-family:var(--display);font-size:15px;line-height:1.1}
+.fan .dead .fn::after{content:" †";color:var(--muted)}
+.fan a:focus-visible{outline:none}
+.fan a:focus-visible .fn{text-decoration:underline}
+
+/* tools */
+.tools{margin:52px 0 26px;display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;justify-content:space-between;border-block:1px solid var(--rule);padding-block:12px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:15px;color:var(--muted);margin:0;padding:0;list-style:none}
+.legend b{font-weight:500;color:var(--ink);font-family:var(--display);font-size:18px;margin-right:5px}
+.search{display:flex;align-items:center;gap:8px}
+.search label{font-family:var(--caps);letter-spacing:.12em;font-size:14px;color:var(--muted)}
+.search input{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:1px solid var(--rule);padding:4px 2px;width:200px;max-width:52vw}
+.search input:focus{outline:none;border-bottom-color:var(--accent)}
+.count{font-size:14px;color:var(--muted);min-width:4ch}
+
+/* leaves */
+.leaves{columns:3 340px;column-gap:28px}
+.branch{break-inside:avoid;background:var(--leaf);border:1px solid var(--rule);padding:22px 24px 24px;margin:0 0 28px;position:relative;scroll-margin-top:24px}
+.branch::before{content:"";position:absolute;inset:4px;border:1px solid var(--rule);opacity:.55;pointer-events:none}
+.bhead{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;align-items:baseline;margin-bottom:14px}
+.roman{font-family:var(--caps);font-size:15px;color:var(--gilt);letter-spacing:.08em;grid-row:span 2}
+.bname{font-family:var(--display);font-size:27px;line-height:1.08;font-weight:600;margin:0;text-wrap:balance}
+.bspouse{font-size:15px;color:var(--muted);font-style:italic}
+.bnote{font-size:15px;color:var(--muted);font-style:italic;margin:0;grid-column:2}
+.empty .bname{font-weight:500}
+
+ul.kin,ul.kin ul{list-style:none;margin:0;padding:0}
+ul.kin ul{margin-left:9px;padding-left:16px;border-left:1px solid var(--rule)}
+ul.kin li{position:relative;padding:3px 0}
+ul.kin ul > li::before{content:"";position:absolute;left:-16px;top:15px;width:11px;border-top:1px solid var(--rule)}
+ul.kin ul > li:last-child::after{content:"";position:absolute;left:-17px;top:16px;bottom:0;border-left:3px solid var(--leaf)}
+.p{display:inline}
+.n{font-size:17.5px}
+.g2>.p .n{font-family:var(--display);font-size:20px;font-weight:600}
+.g3>.p .n{font-size:17px}
+.g4>.p .n{font-size:16px;color:var(--ink)}
+.dead>.p .n{color:var(--muted)}
+.dead>.p .n::after{content:" †";color:var(--gilt)}
+.unk>.p .n{font-style:italic;color:var(--muted)}
+.sp{font-size:14.5px;font-style:italic;color:var(--muted);margin-left:6px}
+.tag{font-family:var(--caps);font-size:13px;letter-spacing:.08em;color:var(--muted);margin-left:6px}
+.sub{font-family:var(--caps);font-size:13.5px;letter-spacing:.14em;color:var(--accent);padding:10px 0 2px}
+.sub:first-child{padding-top:0}
+mark{background:var(--hit);color:inherit;padding:0 2px;border-radius:2px}
+
+/* origin */
+.origin{margin:36px auto 0;max-width:640px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.origin h2{font-family:var(--caps);font-weight:500;letter-spacing:.24em;font-size:15px;color:var(--muted);margin:0}
+.origin p{font-family:var(--display);font-size:clamp(22px,3vw,28px);line-height:1.3;margin:0;text-wrap:balance}
+.origin p em{color:var(--accent)}
+footer{margin-top:110px;text-align:center;font-size:14.5px;color:var(--muted);font-style:italic}
+
+/* tabs */
+.tabs{display:flex;justify-content:center;align-items:baseline;gap:14px;margin:-12px 0 34px}
+.tabs button{font-family:var(--caps);letter-spacing:.2em;font-size:14px;color:var(--muted);background:none;border:0;border-bottom:1px solid transparent;padding:3px 1px;cursor:pointer}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--gilt)}
+.tabs button:focus-visible{outline:1px solid var(--accent);outline-offset:4px}
+.tdot{color:var(--gilt)}
+
+/* traditional tree: couple on top, twelve columns joined by a bar, descendants drop down each column */
+html,body{overflow-x:clip}
+.mode-arbol .crest,.mode-arbol footer{display:none}
+.mode-arbol .page{padding-block-end:0}
+.mode-arbol .tabs{margin-bottom:14px}
+.gtools{position:absolute;z-index:3;top:14px;left:16px;right:16px;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between;padding:10px 16px;border-radius:28px;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(6px);border:1px solid var(--rule)}
+.gtitle{font-family:"Pinyon Script","Snell Roundhand",cursive;font-size:30px;line-height:1;color:var(--ink);margin:0 4px 0 6px;white-space:nowrap}
+.gtitle em{font-style:normal;color:var(--accent)}
+.gkey{display:flex;flex-wrap:wrap;gap:8px 26px;list-style:none;margin:0;padding:0;font-size:18px;color:var(--ink)}
+.gkey b{font-family:var(--display);font-size:22px;font-weight:600;margin-right:6px}
+.gkey .kbox{display:inline-block;width:28px;height:18px;border:2px dashed var(--ink2);border-radius:4px;vertical-align:-3px;margin-right:8px}
+.gsize{display:flex;gap:8px;flex-wrap:wrap}
+.gsize button,.gbtn{min-height:44px;border-radius:999px!important;padding:0 16px;font-family:var(--body);font-size:18px;color:var(--ink);background:var(--leaf);border:2px solid var(--line2);border-radius:8px;cursor:pointer}
+.gsize button:hover,.gbtn:hover{border-color:var(--accent)}
+.gbtn:focus-visible,.gsearch input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.gsearch{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.gsearch label{font-size:17px;color:var(--ink2)}
+.gsearch input{font:inherit;font-size:18px;min-height:44px;padding:0 16px;border-radius:999px;border:2px solid var(--line2);background:var(--leaf);color:var(--ink);width:230px;max-width:52vw}
+#gcount{font-size:16px;color:var(--ink2);min-width:6ch}
+.box{cursor:pointer}
+.box:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.box.found .nm{background:var(--hit);border-radius:3px;box-shadow:0 0 0 3px var(--hit)}
+.box.current{filter:drop-shadow(0 0 2px var(--gilt)) drop-shadow(0 0 10px var(--gilt));animation:gpulse 1.1s ease 2}
+@keyframes gpulse{50%{transform:scale(1.07)}}
+#leaves a.n,#leaves a.go{color:inherit;text-decoration:none;cursor:pointer;border-bottom:1px dotted transparent}
+#leaves a.n:hover,#leaves a.go:hover{border-bottom-color:var(--gilt)}
+#leaves a.n:focus-visible,#leaves a.go:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.flash{background:var(--hit);border-radius:3px;box-shadow:0 0 0 4px var(--hit);transition:background .6s,box-shadow .6s}
+@media (prefers-reduced-motion:reduce){.box.current{animation:none}}
+.gsize button:focus-visible,.gscroll:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.gwrap{position:relative;overflow:hidden;width:100vw;margin-inline:calc(50% - 50vw);height:calc(100vh - 120px);min-height:480px;border-top:1px solid var(--rule);background:var(--paper)}
+#gorn{opacity:var(--g-op)}
+#gorn{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.gscroll{position:relative;z-index:1;overflow:auto;height:100%;padding:118px 40px 70px;background:transparent;-webkit-overflow-scrolling:touch;cursor:grab}
+.gscroll.drag{cursor:grabbing;user-select:none}
+.gscroll.drag *{cursor:grabbing}
+.gtree{display:block;width:max-content;min-width:100%;text-align:center}
+.groot{display:inline-flex;flex-direction:column;align-items:center;gap:2px;border:2px solid transparent;border-image:var(--fr-r) 30 fill / 30px stretch;padding:20px 46px 22px;position:relative;margin-bottom:34px;filter:drop-shadow(0 6px 10px rgba(90,70,30,.18))}
+.groot::after{content:"";position:absolute;left:50%;top:100%;height:36px;border-left:2px solid var(--line2)}
+.groot .rn1{font-family:"Pinyon Script","Snell Roundhand",cursive;font-size:34px;line-height:1.2;color:var(--ink)}
+.groot .rr{font-family:var(--display);font-size:22px;color:var(--gilt);line-height:1}
+.gcols{display:flex;align-items:flex-start;list-style:none;margin:0;padding:0;text-align:left}
+.gcol{position:relative;padding:34px 20px 0 0;flex:none}
+.gcol::before{content:"";position:absolute;top:0;left:0;right:0;border-top:2px solid var(--line2)}
+.gcol:first-child::before{left:30px}
+.gcol:last-child::before{right:auto;width:32px}
+.gcol::after{content:"";position:absolute;top:0;left:30px;height:34px;border-left:2px solid var(--line2)}
+.box{display:inline-block;border:2px solid transparent;border-image:var(--fr-n) 20 fill / 20px stretch;padding:11px 20px 12px;filter:drop-shadow(0 2px 3px rgba(70,60,30,.14));max-width:290px;color:var(--ink);line-height:1.25}
+.box .nm{display:block;font-size:19px;font-weight:500}
+.box .sp{display:block;font-size:16px;font-style:normal;color:var(--ink2);margin:3px 0 0}
+.box .sd{display:block;font-size:15px;color:var(--ink2);margin-top:2px}
+.box.dead{border-image-source:var(--fr-d)}
+.box.unk{border-image-source:var(--fr-u)}
+.box.unk .nm{font-style:italic;color:var(--ink2)}
+.box.g1{border-image-source:var(--fr-g);border-image-slice:26 fill;border-image-width:26px;padding:15px 24px 15px;min-width:200px}
+.box.g1 .rnum{display:block;font-family:var(--caps);font-size:16px;letter-spacing:.14em;color:var(--accent)}
+.box.g1 .nm{font-family:var(--display);font-size:24px;font-weight:600;line-height:1.1}
+ul.dl{list-style:none;margin:0 0 0 30px;padding:0}
+ul.dl ul.dl{margin-left:26px}
+ul.dl > li{position:relative;padding:12px 0 0 24px}
+ul.dl > li::before{content:"";position:absolute;left:0;top:0;bottom:0;border-left:2px solid var(--line2)}
+ul.dl > li:last-child::before{bottom:auto;height:36px}
+ul.dl > li::after{content:"";position:absolute;left:0;top:36px;width:22px;border-top:2px solid var(--line2)}
+.grp{display:inline-block;font-size:17px;font-style:italic;color:var(--ink2);padding:12px 4px 2px;line-height:1.2}
+ul.dl > li.glead::after{top:26px}
+ul.dl > li.glead:last-child::before{height:26px}
+.sw,.gkeybtn{display:none}
+@media (max-width:760px){
+  .gtools{top:8px;left:8px;right:8px;padding:8px;border-radius:22px;gap:8px}
+  .gtitle{display:none}
+  .gsearch{flex:1 1 100%;flex-wrap:nowrap;gap:6px}
+  .gsearch label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .gsearch input{flex:1 1 auto;width:auto;min-width:0;max-width:none;padding:0 14px}
+  #gcount{min-width:0;font-size:14px;white-space:nowrap}
+  #gnext{padding:0;width:44px;font-size:24px;line-height:1}
+  .gsize{flex:1 1 100%;flex-wrap:nowrap;justify-content:space-between;gap:6px}
+  .gsize button{flex:1 1 0;padding:0 8px}
+  .gsize .gkeybtn{flex:0 0 44px;padding:0;font-family:var(--display);font-size:22px;font-weight:600}
+  .lw{display:none}
+  .sw,.gkeybtn{display:inline-flex;align-items:center;justify-content:center}
+  .gkey{display:none;position:absolute;top:calc(100% + 6px);right:0;flex-direction:column;gap:10px;background:var(--leaf);border:1px solid var(--rule);border-radius:16px;padding:14px 18px;box-shadow:0 10px 24px -12px rgba(40,40,20,.35)}
+  .gkey.open{display:flex}
+  .ghint{left:8px;bottom:8px;font-size:14px;padding:5px 12px}
+  .gscroll{padding-left:14px;padding-right:14px}
+}
+.ghint{position:absolute;z-index:3;left:16px;bottom:14px;margin:0;font-size:16px;color:var(--ink2);padding:6px 14px;border-radius:999px;background:color-mix(in srgb,var(--paper) 86%,transparent);border:1px solid var(--rule);max-width:calc(100% - 32px)}
+:root{--bs:30%;--bl:38%}
+
+@media (max-width:860px){
+  .fan::before{display:none}
+  .fan ol{grid-template-columns:repeat(6,1fr);row-gap:18px}
+  .fan li{padding-top:0}
+  .fan li::before{display:none}
+}
+@media (max-width:440px){
+  .fan ol{grid-template-columns:repeat(4,1fr)}
+  .branch{padding:18px 16px 20px}
+  .leaves{columns:1}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+
+<canvas id="garden" aria-hidden="true"></canvas>
+<div class="page" id="page">
+  <div class="tabs" role="tablist" aria-label="Vista">
+    <button type="button" role="tab" id="t-lista" aria-controls="p-lista" aria-selected="true">Ramas</button>
+    <span class="tdot" aria-hidden="true">·</span>
+    <button type="button" role="tab" id="t-arbol" aria-controls="p-arbol" aria-selected="false">Árbol completo</button>
+  </div>
+
+  <header class="crest">
+    <svg class="orn" viewBox="0 0 320 28" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M8 14H118M202 14H312"/>
+      <path d="M118 14c10-10 22-10 30 0c-8 10-20 10-30 0Z"/>
+      <path d="M202 14c-10-10-22-10-30 0c8 10 20 10 30 0Z"/>
+      <circle cx="160" cy="14" r="5"/><circle cx="160" cy="14" r="1.6" fill="currentColor"/>
+      <circle cx="4" cy="14" r="1.6" fill="currentColor"/><circle cx="316" cy="14" r="1.6" fill="currentColor"/>
+    </svg>
+    <p class="kicker">Árbol genealógico · República Dominicana</p>
+    <h1>Familia <em>Cedano</em> Valdez</h1>
+    <p class="couple"><span>Modesto Cedano</span><span class="ring">⚭</span><span>Amelia Valdez</span></p>
+    <p class="facts" id="facts">Doce hijos · cuatro generaciones</p>
+  </header>
+
+  <section id="p-arbol" class="panel" hidden aria-label="Árbol completo">
+    <div class="gwrap">
+      <canvas id="gorn" aria-hidden="true"></canvas>
+    <div class="gtools">
+      <p class="gtitle">Familia <em>Cedano</em> Valdez</p>
+      <div class="gsearch" role="search">
+        <label for="gq">Buscar</label>
+        <input id="gq" type="search" placeholder="Nombre o apellido" autocomplete="off">
+        <button type="button" class="gbtn" id="gnext" aria-label="Siguiente resultado"><span class="lw">Siguiente</span><span class="sw" aria-hidden="true">›</span></button>
+        <span id="gcount" aria-live="polite"></span>
+      </div>
+      <ul class="gkey" id="gkey" aria-label="Cómo leer el árbol">
+        <li><b>†</b>fallecido</li>
+        <li><b>⚭</b>casado con</li>
+        <li><span class="kbox" aria-hidden="true"></span>nombre por confirmar</li>
+      </ul>
+      <div class="gsize" role="group" aria-label="Tamaño del árbol">
+        <button type="button" id="gsmaller" aria-label="Más pequeño">A−<span class="lw"> Más pequeño</span></button>
+        <button type="button" id="glarger" aria-label="Más grande">A+<span class="lw"> Más grande</span></button>
+        <button type="button" id="gall" aria-label="Ver todo">Ver todo</button>
+        <button type="button" class="gkeybtn" id="gkeybtn" aria-label="Cómo leer el árbol" aria-expanded="false" aria-controls="gkey">?</button>
+      </div>
+    </div>
+      <div class="gscroll" id="gscroll" tabindex="0" aria-label="Árbol. Arrastra o desplázate para ver todas las ramas.">
+        <div class="gtree" id="gtree"></div>
+      </div>
+      <p class="ghint"><span class="lw">Arrastra para moverte. Haz clic en un nombre para verlo en Ramas.</span><span class="sw">Desliza para moverte · toca un nombre</span></p>
+    </div>
+  </section>
+
+  <section id="p-lista" class="panel">
+  <nav class="fan" aria-label="Los doce hijos"><ol id="fan"></ol></nav>
+
+  <div class="tools">
+    <ul class="legend">
+      <li><b>†</b>fallecido</li>
+      <li><b>⚭</b>casado con</li>
+      <li><b>s.d.</b>sin descendencia</li>
+      <li><b><i>cursiva</i></b>nombre por confirmar</li>
+    </ul>
+    <div class="search">
+      <label for="q">Buscar</label>
+      <input id="q" type="search" placeholder="Nombre o apellido" autocomplete="off">
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <main class="leaves" id="leaves"></main>
+  </section>
+
+  <footer>Levantado a partir del documento «Sucesores de Modesto Cedano y Amelia Valdez» y sus anotaciones.</footer>
+</div>
+
+<script>
+/* d = fallecido, sd = sin descendencia, u = nombre por confirmar, sp = cónyuge, k = hijos, g = grupos por cónyuge */
+var TREE=[
+ {n:"Modesto Cedano",d:1,sp:"Idalia Báez",k:[
+   {n:"Nelly Cedano Báez"},
+   {n:"Ernesto Cedano Báez",sp:"Herrera",k:[{n:"Dilcia Ernestina Cedano Herrera"},{n:"Diomedes Norberto Cedano Herrera"}]},
+   {n:"Gisela Cedano Báez"},
+   {n:"Juan Antonio Cedano Báez",sp:"Altagracia García",k:[{n:"Joan Margarita Cedano García"},{n:"Fedra Patricia Cedano García"},{n:"Modesto Antonio Cedano García"}]},
+   {n:"Gladis María Cedano Báez",d:1,sp:"Napoleón Rodríguez",k:[{n:"Rosario Margarita Rodríguez Cedano"},{n:"Mónica Idalia Rodríguez Cedano"}]},
+   {n:"Gloria María Cedano Báez",d:1,sp:"Virgilio Rodríguez",k:[{n:"Arturo Napoleón Rodríguez Cedano"},{n:"Miriam Idalia Rodríguez Cedano"},{n:"Rodolfo Abigail Rodríguez Cedano"},{n:"Elizabeth Virginia Rodríguez Cedano"},{n:"Juan Ángel Rodríguez Cedano"},{n:"Virgilio Modesto Rodríguez Cedano"},{n:"Manuel de Jesús Rodríguez Cedano"}]}
+ ]},
+ {n:"Máximo Cedano Valdez",d:1,sd:1},
+ {n:"Ángela Cedano Valdez de Hollert",d:1,note:"Heredó en vida"},
+ {n:"Amado Cedano Valdez",g:[
+   {sp:"Eva Julián",k:[
+     {n:"Altagracia Cedano",d:1},
+     {n:"Modesto Amado Cedano Julián"},
+     {n:"Franklin Cedano Julián",d:1,sd:1},
+     {n:"Cruz Amelia Cedano Julián",d:1},
+     {n:"Máximo Amado Antonio Cedano Julián",d:1,sd:1},
+     {n:"Ángela Altagracia Cedano Julián",d:1,k:[{n:"Una hija",u:1}]}
+   ]},
+   {sp:"María Eugenia Montas",k:[
+     {n:"Migdalia Cedano Montas"},
+     {n:"Rafael Amado Cedano Montas",d:1,k:[{n:"Rafael Candelario"},{n:"Celia Amada Cedano Pepén"},{n:"Rafael Alberto Cedano"},{n:"Emmanuel Amado Cedano Pepén"}]},
+     {n:"Amada Elizabeth Cedano Montas"},
+     {n:"Amado Eugenio Cedano Montas"},
+     {n:"Marisela Cedano Montas"},
+     {n:"Tirso Antonio Cedano Montas"},
+     {n:"Arismendi Cedano Montas",k:[{n:"Yahaira"},{n:"Otros hijos",u:1}]}
+   ]}
+ ]},
+ {n:"Viterbo Cedano",d:1,sp:"Isabel Rodríguez †",k:[
+   {n:"Jesús Cedano",k:[{n:"Albert Cedano"},{n:"Wilbert"},{n:"Heisy"}]},
+   {n:"Modesto Antonio Chevalier"}
+ ]},
+ {n:"Helvecia Cedano",d:1,sp:"Bienvenido Julián †",k:[
+   {n:"Amadeo Modesto Julián Cedano"},
+   {n:"Máximo Bienvenido Julián Cedano"},
+   {n:"Helvecia Bienvenida Julián Cedano"},
+   {n:"Ismedia Amelia Julián Cedano"},
+   {n:"José Loreto Julián Cedano",d:1},
+   {n:"Rafael Julián Cedano",k:[{n:"Michel Julián"}]}
+ ]},
+ {n:"Alsacia Cedano",d:1,sd:1},
+ {n:"Carolina Altagracia Cedano",d:1,sp:"Eurípides Amable Montas Tavares",k:[
+   {n:"Idalisa Amelia Josefina Montas Cedano",d:1,k:[{n:"Alfonsina"},{n:"Milagros"}]},
+   {n:"Joselo Montas Cedano",d:1,k:[{n:"Carmen Martina Montas Cedeño"},{n:"María Montas Cedeño"},{n:"Mayra Montas Cedeño"},{n:"José Montas Cedeño",d:1,sd:1}]}
+ ]},
+ {n:"Amelia Cedano Valdez",d:1,sp:"Osvaldo Báez",k:[
+   {n:"Osvaldo Buenaventura Báez Cedano",k:[{n:"Caroll Cedano Pumarol"},{n:"Fabio Cedano Pumarol"},{n:"Sandra Cedano Pumarol"},{n:"Osvaldo Cedano Pumarol"}]},
+   {n:"Sara Amelia Báez Cedano",sd:1},
+   {n:"Carlos Manuel Báez",sp:"Norma Dujarric Cedano (rama XII)"},
+   {n:"Máximo Báez",d:1,sd:1},
+   {n:"Virgilio Báez Cedano",k:[{n:"Virgilio"},{n:"Osvaldo"},{n:"Brian"}]},
+   {n:"Óscar Báez",d:1,sp:"Ortiz",k:[
+     {n:"Máximo Osvaldo Báez Ortiz",d:1,sd:1},
+     {n:"Amelia Andreína Báez Ortiz",k:[{n:"Un hijo",u:1}]},
+     {n:"Óscar Báez Ortiz"}
+   ]}
+ ]},
+ {n:"Mirtila Cedano Valdez",d:1,sp:"Nivar",k:[
+   {n:"Marilyn Amelia Nivar Cedano",k:[{n:"Marilin Diechi Nivar"}]},
+   {n:"Modesto Antonio Nivar Cedano",d:1,k:[{n:"Jackelin Nivar"},{n:"Pablo Manuel Nivar"}]},
+   {n:"Jackeline Nivar Cedano",d:1,k:[{n:"Pedro Bournigal Nivar"},{n:"Sara Emilia Bournigal Nivar"}]}
+ ]},
+ {n:"Plinio Cedano",d:1,sd:1},
+ {n:"Judith Cedano",d:1,sp:"William Dujarric",k:[
+   {n:"Norma Dujarric Cedano",sp:"Carlos Manuel Báez (rama IX)",k:[{n:"Judith Báez Dujarric"},{n:"Carla Báez Dujarric"},{n:"Carlos Pablo Báez Dujarric"}]},
+   {n:"Manuel de Jesús Dujarric Cedano",k:[{n:"Natalí Dujarric"},{n:"Mariel Dujarric"},{n:"Manuel de Jesús Dujarric"},{n:"Noel Dujarric"},{n:"Uno más",u:1}]},
+   {n:"Evelyn Dujarric Cedano",d:1,k:[{n:"Evelyn Calderón Dujarric"},{n:"Raquel Calderón Dujarric"},{n:"Frank Calderón Dujarric"},{n:"Fermín Calderón Dujarric"}]},
+   {n:"William Dujarric Cedano",d:1,sp:"Medina · Henríquez",k:[{n:"Judith Dujarric Medina"},{n:"María Dujarric Henríquez"},{n:"Paola Dujarric Henríquez"}]}
+ ]}
+];
+var ROMAN=["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
+var UID=0;
+function tagIds(p){p._id="p"+(UID++);(p.k||[]).forEach(tagIds);(p.g||[]).forEach(function(g){g.k.forEach(tagIds);});}
+TREE.forEach(tagIds);
+
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function person(p,gen){
+  var cls="g"+gen+(p.d?" dead":"")+(p.u?" unk":"");
+  var h='<li class="'+cls+'"><span class="p"><a class="n" href="#arbol" data-id="'+p._id+'" title="Ver en el árbol">'+esc(p.n)+'</a>';
+  if(p.sp) h+='<span class="sp">⚭ '+esc(p.sp)+'</span>';
+  if(p.sd) h+='<span class="tag">s.d.</span>';
+  h+='</span>';
+  if(p.k) h+='<ul>'+p.k.map(function(c){return person(c,gen+1);}).join("")+'</ul>';
+  return h+'</li>';
+}
+function countAll(list){var c=0;(list||[]).forEach(function(p){if(!p.u)c++;c+=countAll(p.k);});return c;}
+
+var fan="",leaves="",total=0;
+TREE.forEach(function(b,i){
+  var id="rama-"+(i+1), first=b.n.split(" ")[0];
+  fan+='<li class="'+(b.d?"dead":"")+'"><a href="#'+id+'"><span class="med">'+ROMAN[i]+'</span><span class="fn">'+esc(first)+'</span></a></li>';
+  var kids=b.k||[]; (b.g||[]).forEach(function(g){kids=kids.concat(g.k);});
+  total+=1+countAll(kids);
+  var empty=!kids.length;
+  leaves+='<article class="branch'+(empty?" empty":"")+(b.d?" dead":"")+'" id="'+id+'"><div class="bhead"><span class="roman">'+ROMAN[i]+'</span>';
+  leaves+='<h2 class="bname"><a class="go" href="#arbol" data-id="'+b._id+'" title="Ver en el árbol">'+esc(b.n)+'</a>'+(b.d?' <span style="color:var(--gilt);font-weight:500">†</span>':'')+'</h2>';
+  if(b.sp) leaves+='<span class="bspouse">⚭ '+esc(b.sp)+'</span>';
+  if(b.sd) leaves+='<p class="bnote">Sin descendencia</p>';
+  if(b.note) leaves+='<p class="bnote">'+esc(b.note)+'</p>';
+  leaves+='</div>';
+  if(b.k) leaves+='<ul class="kin">'+b.k.map(function(c){return person(c,2);}).join("")+'</ul>';
+  if(b.g) leaves+='<ul class="kin">'+b.g.map(function(g){return '<li class="sub">con '+esc(g.sp)+'</li>'+g.k.map(function(c){return person(c,2);}).join("");}).join("")+'</ul>';
+  leaves+='</article>';
+});
+document.getElementById("fan").innerHTML=fan;
+document.getElementById("leaves").innerHTML=leaves;
+document.getElementById("facts").textContent="Doce hijos · cuatro generaciones · "+total+" descendientes";
+
+var names=[].slice.call(document.querySelectorAll(".n,.bname .go"));
+names.forEach(function(el){el.dataset.t=el.innerHTML;});
+function norm(s){return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");}
+var q=document.getElementById("q"),count=document.getElementById("count");
+q.addEventListener("input",function(){
+  var t=norm(q.value.trim()),hits=0,first=null;
+  names.forEach(function(el){
+    el.innerHTML=el.dataset.t;
+    if(!t) return;
+    var plain=el.textContent,i=norm(plain).indexOf(t);
+    if(i>-1 && !el.querySelector("span")){
+      el.innerHTML=esc(plain.slice(0,i))+"<mark>"+esc(plain.slice(i,i+t.length))+"</mark>"+esc(plain.slice(i+t.length));
+      hits++; if(!first) first=el;
+    } else if(i>-1){ hits++; if(!first) first=el; }
+  });
+  count.textContent=t?(hits+(hits===1?" persona":" personas")):"";
+  if(first) first.scrollIntoView({block:"center",behavior:"smooth"});
+});
+
+/* ---------- tabs ---------- */
+var tabs={lista:document.getElementById("t-lista"),arbol:document.getElementById("t-arbol")};
+var panels={lista:document.getElementById("p-lista"),arbol:document.getElementById("p-arbol")};
+var drawn=false;
+function show(which){
+  document.getElementById("garden").style.display=which==="lista"?"":"none";
+  document.body.classList.toggle("mode-arbol",which==="arbol");
+  if(which==="lista") requestAnimationFrame(drawGarden);
+  Object.keys(tabs).forEach(function(k){
+    var on=k===which; tabs[k].setAttribute("aria-selected",on?"true":"false"); panels[k].hidden=!on;
+  });
+  if(which==="arbol"){if(!drawn){initTree();drawn=true;}else{sizeWrap();drawOrnament();}}
+}
+tabs.lista.addEventListener("click",function(){show("lista");window.scrollTo(0,0);try{history.replaceState(null,"","#ramas");}catch(e){}});
+tabs.arbol.addEventListener("click",function(){show("arbol");window.scrollTo(0,0);try{history.replaceState(null,"","#arbol");}catch(e){}});
+
+/* ---------- traditional tree ---------- */
+function box(p,cls,extra){
+  var h='<div class="box '+cls+(p.d?" dead":"")+(p.u?" unk":"")+'" data-id="'+p._id+'" tabindex="0" role="link" title="Ver en Ramas">'+(extra||"");
+  h+='<span class="nm">'+esc(p.n)+(p.d?' <span aria-label="fallecido">†</span>':"")+'</span>';
+  if(p.sp) h+='<span class="sp">⚭ '+esc(p.sp)+'</span>';
+  if(p.sd) h+='<span class="sd">Sin descendencia</span>';
+  if(p.note) h+='<span class="sd">'+esc(p.note)+'</span>';
+  return h+'</div>';
+}
+function desc(list){
+  if(!list||!list.length) return "";
+  return '<ul class="dl">'+list.map(function(c){return '<li>'+box(c,"")+desc(c.k)+'</li>';}).join("")+'</ul>';
+}
+function drawTree(){
+  var h='<div class="groot" role="heading" aria-level="2"><span class="rn1">Modesto Cedano</span><span class="rr">⚭</span><span class="rn1">Amelia Valdez</span></div>';
+  h+='<ol class="gcols" aria-label="Los doce hijos">';
+  TREE.forEach(function(b,i){
+    h+='<li class="gcol">'+box(b,"g1",'<span class="rnum">'+ROMAN[i]+'</span>');
+    if(b.k) h+=desc(b.k);
+    if(b.g) h+='<ul class="dl">'+b.g.map(function(g){
+      return '<li class="glead"><span class="grp">con '+esc(g.sp)+'</span>'+desc(g.k)+'</li>';
+    }).join("")+'</ul>';
+    h+='</li>';
+  });
+  h+='</ol>';
+  document.getElementById("gtree").innerHTML=h;
+}
+var gz=1, GZMIN=.3, GZMAX=1.6;
+try{var sv=parseFloat(localStorage.getItem("arbol-zoom"));if(sv>=GZMIN&&sv<=GZMAX)gz=sv;}catch(e){}
+function applyZoom(center){
+  var sc=document.getElementById("gscroll"),t=document.getElementById("gtree");
+  var cx=(sc.scrollLeft+sc.clientWidth/2)/(sc.scrollWidth||1);
+  t.style.zoom=gz;
+  if(center) sc.scrollLeft=(sc.scrollWidth-sc.clientWidth)/2;
+  else sc.scrollLeft=cx*sc.scrollWidth-sc.clientWidth/2;
+  try{localStorage.setItem("arbol-zoom",String(gz));}catch(e){}
+}
+function enableDrag(){
+  var sc=document.getElementById("gscroll"),drag=null;
+  sc.addEventListener("pointerdown",function(e){
+    if(e.pointerType!=="mouse"||e.button!==0) return;
+    drag={x:e.clientX,y:e.clientY,l:sc.scrollLeft,t:sc.scrollTop,id:e.pointerId,moved:false};
+    e.preventDefault();
+    sc.focus({preventScroll:true});
+  });
+  window.addEventListener("pointermove",function(e){
+    if(!drag||e.pointerId!==drag.id) return;
+    var dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+    if(!drag.moved&&Math.abs(dx)+Math.abs(dy)>3){drag.moved=true;sc.classList.add("drag");}
+    if(drag.moved){sc.scrollLeft=drag.l-dx;sc.scrollTop=drag.t-dy;}
+  });
+  function end(){if(drag){if(drag.moved){window._dragged=true;setTimeout(function(){window._dragged=false;},60);}drag=null;sc.classList.remove("drag");}}
+  window.addEventListener("pointerup",end);
+  window.addEventListener("pointercancel",end);
+  sc.addEventListener("keydown",function(e){
+    var step=90,m={ArrowLeft:[-step,0],ArrowRight:[step,0],ArrowUp:[0,-step],ArrowDown:[0,step]}[e.key];
+    if(m){e.preventDefault();sc.scrollBy({left:m[0],top:m[1],behavior:"smooth"});}
+  });
+}
+
+/* cartouche frames: scooped corners, double line, a dot in each corner */
+function frame(fill,stroke,inner,sw,dash,big){
+  var V=big?90:60, o=1.5, r=big?16:11, o2=big?7:5.5, r2=big?12:8.5, E=V-o, E2=V-o2;
+  function shape(o,r,E){return "M"+(o+r)+" "+o+"H"+(E-r)+"A"+r+" "+r+" 0 0 0 "+E+" "+(o+r)+"V"+(E-r)+"A"+r+" "+r+" 0 0 0 "+(E-r)+" "+E+"H"+(o+r)+"A"+r+" "+r+" 0 0 0 "+o+" "+(E-r)+"V"+(o+r)+"A"+r+" "+r+" 0 0 0 "+(o+r)+" "+o+"Z";}
+  var d=big?3.6:2.6, k=big?4.5:3.4;
+  var svg="<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 "+V+" "+V+"'>"+
+    "<path d='"+shape(o,r,E)+"' fill='"+fill+"' stroke='"+stroke+"' stroke-width='"+sw+"'"+(dash?" stroke-dasharray='5 3.5'":"")+"/>"+
+    "<path d='"+shape(o2,r2,E2)+"' fill='none' stroke='"+inner+"' stroke-width='.9' opacity='.75'/>"+
+    "<g fill='"+inner+"'><circle cx='"+k+"' cy='"+k+"' r='"+d/2+"'/><circle cx='"+(V-k)+"' cy='"+k+"' r='"+d/2+"'/><circle cx='"+k+"' cy='"+(V-k)+"' r='"+d/2+"'/><circle cx='"+(V-k)+"' cy='"+(V-k)+"' r='"+d/2+"'/></g></svg>";
+  return 'url("data:image/svg+xml,'+encodeURIComponent(svg)+'")';
+}
+function setFrames(){
+  var cs=getComputedStyle(document.documentElement); function v(n){return cs.getPropertyValue(n).trim();}
+  var leafC=v("--leaf"),line=v("--line2"),acc=v("--accent"),gilt=v("--gilt"),dead=v("--deadbg"),paper=v("--paper");
+  var st=document.documentElement.style;
+  st.setProperty("--fr-n",frame(leafC,line,gilt,1.6,false,false));
+  st.setProperty("--fr-d",frame(dead,line,line,1.6,false,false));
+  st.setProperty("--fr-u",frame(paper,line,line,1.4,true,false));
+  st.setProperty("--fr-g",frame(leafC,acc,gilt,2.2,false,true));
+  st.setProperty("--fr-r",frame(leafC,gilt,gilt,2,false,true));
+}
+setFrames();
+function sizeWrap(){
+  var w=document.querySelector(".gwrap"); if(!w||panels.arbol.hidden) return;
+  var top=w.getBoundingClientRect().top+(window.scrollY||0);
+  w.style.height=Math.max(480,window.innerHeight-top)+"px";
+  var bar=w.querySelector(".gtools"), sc=document.getElementById("gscroll");
+  if(bar&&sc) sc.style.paddingTop=(bar.offsetHeight+44)+"px";
+}
+
+/* pastel vines, leaves and little flowers behind the tree */
+function drawOrnament(){
+  var cv=document.getElementById("gorn"),wrap=cv.parentNode;
+  var W=wrap.clientWidth,H=wrap.clientHeight,dpr=Math.min(window.devicePixelRatio||1,1.5);
+  if(!W||!H) return;
+  cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); cv.style.width=W+"px"; cv.style.height=H+"px";
+  cv.style.position="absolute"; cv.style.left="0"; cv.style.top="0"; cv.style.pointerEvents="none"; cv.style.zIndex="0";
+  var c=cv.getContext("2d"); c.setTransform(dpr,0,0,dpr,0,0); c.clearRect(0,0,W,H);
+  var cs=getComputedStyle(document.documentElement); function v(n){return cs.getPropertyValue(n).trim();}
+  var stem=v("--g-stem"), leaves=[v("--g-l1"),v("--g-l2"),v("--g-l3")], flowers=[v("--g-f1"),v("--g-f2"),v("--g-f3")], heart=v("--g-c"), paper=v("--paper");
+  var seed=3; function rnd(){seed=(seed*16807)%2147483647;return (seed-1)/2147483646;}
+  function pick(a){return a[Math.floor(rnd()*a.length)];}
+  function leaf(x,y,a,L){
+    var Wd=L*.42;
+    c.save(); c.translate(x,y); c.rotate(a);
+    c.beginPath(); c.moveTo(0,0);
+    c.bezierCurveTo(L*.12,-Wd,L*.72,-Wd*1.1,L,0);
+    c.bezierCurveTo(L*.72,Wd*1.1,L*.12,Wd,0,0);
+    c.fillStyle=pick(leaves); c.globalAlpha=.92; c.fill();
+    c.beginPath(); c.moveTo(L*.08,0); c.quadraticCurveTo(L*.45,-L*.04,L*.78,0);
+    c.strokeStyle=paper; c.globalAlpha=.55; c.lineWidth=Math.max(.7,L*.05); c.stroke();
+    c.restore();
+  }
+  function flower(x,y,r){
+    var col=pick(flowers), rot=rnd()*Math.PI;
+    c.globalAlpha=.95; c.fillStyle=col;
+    for(var i=0;i<5;i++){
+      var a=rot+i*Math.PI*2/5;
+      c.beginPath(); c.ellipse(x+Math.cos(a)*r*.85,y+Math.sin(a)*r*.85,r*.78,r*.62,a,0,Math.PI*2); c.fill();
+    }
+    c.fillStyle=heart; c.beginPath(); c.arc(x,y,r*.5,0,Math.PI*2); c.fill();
+  }
+  function berries(x,y,th){
+    c.fillStyle=pick(flowers); c.globalAlpha=.9;
+    for(var i=0;i<3;i++){var a=th+(i-1)*.7;c.beginPath();c.arc(x+Math.cos(a)*6,y+Math.sin(a)*6,2.8,0,Math.PI*2);c.fill();}
+  }
+  function curl(x,y,th,dir){
+    c.beginPath(); c.moveTo(x,y);
+    var k=.04;
+    for(var s=0;s<46;s+=1.5){th+=dir*k*1.5;k*=1.07;x+=Math.cos(th)*1.5;y+=Math.sin(th)*1.5;c.lineTo(x,y);}
+    c.strokeStyle=stem; c.globalAlpha=.9; c.lineWidth=1.1; c.stroke();
+  }
+  function vine(x,y,th,len,depth,w){
+    var ds=3, s=0, ph=rnd()*6.28, amp=.014+rnd()*.012, fr=.018+rnd()*.012, pts=[[x,y,th]];
+    while(s<len){th+=Math.sin(ph+s*fr)*amp*ds; x+=Math.cos(th)*ds; y+=Math.sin(th)*ds; s+=ds; pts.push([x,y,th]);}
+    c.beginPath(); c.moveTo(pts[0][0],pts[0][1]);
+    for(var i=1;i<pts.length;i++) c.lineTo(pts[i][0],pts[i][1]);
+    c.strokeStyle=stem; c.globalAlpha=.95; c.lineWidth=w; c.lineCap="round"; c.lineJoin="round"; c.stroke();
+    var step=Math.max(2,Math.round(15/ds)), side=1;
+    for(i=step;i<pts.length-1;i+=step){
+      var f=i/pts.length, p=pts[i], L=(17+rnd()*9)*(1-f*.4)*(depth?1:.85);
+      leaf(p[0],p[1],p[2]+side*(.75+rnd()*.35),L);
+      if(rnd()<.6) leaf(p[0],p[1],p[2]-side*(.75+rnd()*.35),L*.8);
+      side=-side;
+    }
+    if(depth>0){
+      var nb=1+(rnd()<.5?1:0);
+      for(var b=0;b<nb;b++){
+        var q=pts[Math.floor(pts.length*(.3+rnd()*.4))];
+        vine(q[0],q[1],q[2]+(rnd()<.5?-1:1)*(.7+rnd()*.4),len*(.35+rnd()*.2),depth-1,w*.75);
+      }
+    }
+    var e=pts[pts.length-1], r=rnd();
+    if(r<.42) flower(e[0],e[1],5+rnd()*3);
+    else if(r<.62) berries(e[0],e[1],e[2]);
+    else curl(e[0],e[1],e[2],rnd()<.5?1:-1);
+  }
+  var cell=140;
+  for(var gy=-1;gy*cell<H+cell;gy++){
+    for(var gx=-1;gx*cell<W+cell;gx++){
+      vine(gx*cell+rnd()*cell,gy*cell+rnd()*cell,rnd()*Math.PI*2,110+rnd()*110,1,1.6);
+    }
+  }
+  for(var i=0;i<Math.round(W*H/26000);i++){
+    var x=rnd()*W,y=rnd()*H;
+    if(rnd()<.5) flower(x,y,2.6+rnd()*1.6);
+    else {c.fillStyle=pick(flowers);c.globalAlpha=.8;c.beginPath();c.arc(x,y,1.4+rnd()*1.6,0,Math.PI*2);c.fill();}
+  }
+  c.globalAlpha=1;
+}
+function refreshTheme(){setFrames();if(!panels.arbol.hidden)drawOrnament();}
+
+function initTree(){
+  drawTree();
+  sizeWrap();
+  applyZoom(true);
+  enableDrag();
+  drawOrnament();
+  window.addEventListener("resize",function(){if(!panels.arbol.hidden){sizeWrap();drawOrnament();}});
+  try{window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",refreshTheme);}catch(e){}
+  try{new MutationObserver(refreshTheme).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});}catch(e){}
+  document.getElementById("glarger").addEventListener("click",function(){gz=Math.min(GZMAX,+(gz*1.2).toFixed(3));applyZoom();});
+  document.getElementById("gsmaller").addEventListener("click",function(){gz=Math.max(GZMIN,+(gz/1.2).toFixed(3));applyZoom();});
+  document.getElementById("gall").addEventListener("click",function(){
+    var sc=document.getElementById("gscroll"),t=document.getElementById("gtree");
+    t.style.zoom=1;
+    var natural=t.querySelector(".gcols").getBoundingClientRect().width, avail=sc.clientWidth-40;
+    gz=Math.max(GZMIN,Math.min(1,avail/natural));
+    applyZoom(true);
+  });
+}
+
+/* ---------- pastel garden behind the branch tab ---------- */
+function drawGarden(){
+  var cv=document.getElementById("garden");
+  if(cv.style.display==="none") return;
+  var de=document.documentElement, W=de.clientWidth;
+  cv.style.height="0px";
+  var H=Math.max(de.scrollHeight,document.body.scrollHeight);
+  var dpr=Math.min(window.devicePixelRatio||1,1.5);
+  if(W*H*dpr*dpr>26e6) dpr=Math.sqrt(26e6/(W*H));
+  cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); cv.style.height=H+"px";
+  var c=cv.getContext("2d"); c.setTransform(dpr,0,0,dpr,0,0); c.clearRect(0,0,W,H);
+  var cs=getComputedStyle(de); function v(n){return cs.getPropertyValue(n).trim();}
+  var gA=v("--gl-a"), gB=v("--gl-b"), vein=v("--gl-v"), stemC=v("--gl-s");
+  var seed=17; function rnd(){seed=(seed*16807)%2147483647;return (seed-1)/2147483646;}
+  var S=W<700?.72:1;
+
+  /* almond leaf, shaded from light to deep gold, with a midrib */
+  function leaf(x,y,a,L){
+    var Wd=L*.34;
+    c.save(); c.translate(x,y); c.rotate(a);
+    c.beginPath(); c.moveTo(0,0);
+    c.bezierCurveTo(L*.18,-Wd*1.15,L*.62,-Wd*1.05,L,0);
+    c.bezierCurveTo(L*.66,Wd*.95,L*.2,Wd*1.05,0,0);
+    var g=c.createLinearGradient(L*.3,-Wd,L*.55,Wd);
+    g.addColorStop(0,gA); g.addColorStop(.55,gB); g.addColorStop(1,gA);
+    c.fillStyle=g; c.globalAlpha=.95; c.fill();
+    c.strokeStyle=gB; c.globalAlpha=.35; c.lineWidth=.8; c.stroke();
+    c.beginPath(); c.moveTo(L*.04,0); c.quadraticCurveTo(L*.5,-Wd*.12,L*.9,0);
+    c.strokeStyle=vein; c.globalAlpha=.75; c.lineWidth=1; c.stroke();
+    c.beginPath(); c.moveTo(L*.2,-Wd*.5); c.quadraticCurveTo(L*.45,-Wd*.8,L*.7,-Wd*.45);
+    c.strokeStyle=gA; c.globalAlpha=.55; c.lineWidth=1.2; c.stroke();
+    c.restore();
+  }
+  function stroke(pts,w0,w1){
+    c.strokeStyle=stemC; c.lineCap="round"; c.globalAlpha=.9;
+    for(var i=1;i<pts.length;i++){
+      c.beginPath(); c.moveTo(pts[i-1][0],pts[i-1][1]); c.lineTo(pts[i][0],pts[i][1]);
+      c.lineWidth=w0+(w1-w0)*(i/pts.length); c.stroke();
+    }
+  }
+  /* a flowing spray: thin stem, leaves on short stalks, side shoots, a leaf at the tip */
+  function spray(x,y,th,len,w,depth){
+    var ds=3,s=0,ph=rnd()*6.28,amp=.006+rnd()*.006,fr=.008+rnd()*.008,pts=[[x,y,th]],th0=th;
+    while(s<len){
+      th+=Math.sin(ph+s*fr)*amp*ds+(th0-th)*.004;
+      x+=Math.cos(th)*ds; y+=Math.sin(th)*ds; s+=ds; pts.push([x,y,th]);
+    }
+    stroke(pts,w,Math.max(.6,w*.35));
+    var next=30+rnd()*20, side=rnd()<.5?1:-1, acc=0;
+    for(var i=1;i<pts.length-6;i++){
+      acc+=ds;
+      if(acc<next) continue;
+      acc=0; next=(32+rnd()*22)*S;
+      var p=pts[i], f=i/pts.length;
+      if(depth>0&&rnd()<.42&&f<.8){
+        spray(p[0],p[1],p[2]+side*(.45+rnd()*.4),len*(.22+rnd()*.22),w*.62,depth-1);
+      } else {
+        var pa=p[2]+side*(.95+rnd()*.3), pl=(6+rnd()*5)*S;
+        var px=p[0]+Math.cos(pa)*pl, py=p[1]+Math.sin(pa)*pl;
+        c.beginPath(); c.moveTo(p[0],p[1]); c.quadraticCurveTo(p[0]+Math.cos(p[2])*pl*.5,p[1]+Math.sin(p[2])*pl*.5,px,py);
+        c.strokeStyle=stemC; c.globalAlpha=.85; c.lineWidth=Math.max(.6,w*.5); c.stroke();
+        leaf(px,py,p[2]+side*(.55+rnd()*.45),(24+rnd()*12)*(1-f*.25)*S*(depth===2?1:.92));
+      }
+      side=-side;
+    }
+    var e=pts[pts.length-1];
+    leaf(e[0],e[1],e[2]+(rnd()-.5)*.3,(26+rnd()*10)*S);
+    if(rnd()<.5) leaf(e[0],e[1],e[2]+(rnd()<.5?-1:1)*(.7+rnd()*.3),(20+rnd()*8)*S);
+  }
+
+  var up=-Math.PI/2, gap=W<700?520:600;
+  for(var y=H+40, k=0; y>-200; y-=gap, k++){
+    var yl=y-rnd()*120, yr=y-gap*.5-rnd()*120;
+    spray(-12,yl,up+.32+rnd()*.12,(560+rnd()*200)*S,1.9,2);
+    spray(W+12,yr,up-.32-rnd()*.12,(560+rnd()*200)*S,1.9,2);
+    spray(-12,yl-gap*.45,-.22-rnd()*.2,(260+rnd()*120)*S,1.4,1);
+    spray(W+12,yr-gap*.45,Math.PI+.22+rnd()*.2,(260+rnd()*120)*S,1.4,1);
+    if(W>900&&k%2===1){
+      spray(W*(.3+rnd()*.4),y,up+(rnd()-.5)*.6,(380+rnd()*160)*S,1.5,2);
+    }
+  }
+
+  /* soft clearings so the open text stays easy to read */
+  c.globalAlpha=1; c.globalCompositeOperation="destination-out";
+  var sy=window.scrollY||de.scrollTop||0;
+  function clear(sel,padX,padY,strength){
+    document.querySelectorAll(sel).forEach(function(el){
+      var r=el.getBoundingClientRect(); if(!r.width) return;
+      var cx=r.left+r.width/2, cy=r.top+sy+r.height/2, rx=r.width/2+padX, ry=r.height/2+padY;
+      c.save(); c.translate(cx,cy); c.scale(1,ry/rx);
+      var g=c.createRadialGradient(0,0,0,0,0,rx);
+      g.addColorStop(0,"rgba(0,0,0,"+strength+")"); g.addColorStop(.6,"rgba(0,0,0,"+strength*.85+")"); g.addColorStop(1,"rgba(0,0,0,0)");
+      c.fillStyle=g; c.beginPath(); c.arc(0,0,rx,0,Math.PI*2); c.fill(); c.restore();
+    });
+  }
+  clear(".tabs",60,26,.92);
+  clear(".crest h1",90,50,.8);
+  clear(".kicker,.couple,.facts",70,22,.92);
+  clear(".fan",50,30,.8);
+  clear(".tools",40,24,.88);
+  clear("footer",60,26,.92);
+  c.globalCompositeOperation="source-over";
+}
+var gTimer=null;
+function scheduleGarden(){clearTimeout(gTimer);gTimer=setTimeout(drawGarden,150);}
+window.addEventListener("resize",scheduleGarden);
+try{new ResizeObserver(scheduleGarden).observe(document.getElementById("p-lista"));}catch(e){}
+try{document.fonts.ready.then(drawGarden);}catch(e){}
+try{window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",drawGarden);}catch(e){}
+try{new MutationObserver(scheduleGarden).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});}catch(e){}
+drawGarden();
+
+/* ---------- search in the tree, and links between the tabs ---------- */
+function centerOn(el,smooth){
+  var sc=document.getElementById("gscroll"),r=el.getBoundingClientRect(),sr=sc.getBoundingClientRect();
+  var pad=parseFloat(sc.style.paddingTop)||110;
+  sc.scrollTo({left:sc.scrollLeft+r.left-sr.left-(sc.clientWidth-r.width)/2,
+               top:sc.scrollTop+r.top-sr.top-(sc.clientHeight+pad*.5-r.height)/2,
+               behavior:smooth===false?"auto":"smooth"});
+}
+function markCurrent(el){
+  document.querySelectorAll(".box.current").forEach(function(b){b.classList.remove("current");});
+  void el.offsetWidth; el.classList.add("current");
+}
+function readable(){ if(gz<.85){gz=1;applyZoom();} }
+function focusPerson(id){
+  var el=document.querySelector('#gtree .box[data-id="'+id+'"]'); if(!el) return;
+  readable();
+  requestAnimationFrame(function(){centerOn(el,false);markCurrent(el);el.focus({preventScroll:true});});
+}
+function goTree(id){
+  show("arbol"); window.scrollTo(0,0);
+  try{history.replaceState(null,"","#arbol");}catch(e){}
+  requestAnimationFrame(function(){requestAnimationFrame(function(){focusPerson(id);});});
+}
+function goList(id){
+  show("lista");
+  try{history.replaceState(null,"","#ramas");}catch(e){}
+  var el=document.querySelector('#leaves [data-id="'+id+'"]'); if(!el) return;
+  requestAnimationFrame(function(){
+    el.scrollIntoView({block:"center",behavior:"smooth"});
+    el.classList.add("flash"); setTimeout(function(){el.classList.remove("flash");},2600);
+  });
+}
+document.getElementById("leaves").addEventListener("click",function(e){
+  var a=e.target.closest("[data-id]"); if(!a) return;
+  e.preventDefault(); goTree(a.dataset.id);
+});
+var gtreeEl=document.getElementById("gtree");
+gtreeEl.addEventListener("click",function(e){
+  if(window._dragged) return;
+  var b=e.target.closest(".box[data-id]"); if(!b) return;
+  goList(b.dataset.id);
+});
+gtreeEl.addEventListener("keydown",function(e){
+  if(e.key!=="Enter") return;
+  var b=e.target.closest(".box[data-id]"); if(b){e.preventDefault();goList(b.dataset.id);}
+});
+
+var gq=document.getElementById("gq"),gcount=document.getElementById("gcount"),found=[],fi=-1;
+function gSearch(){
+  var t=norm(gq.value.trim());
+  document.querySelectorAll("#gtree .box.found").forEach(function(b){b.classList.remove("found");});
+  found=[]; fi=-1;
+  if(t){
+    document.querySelectorAll("#gtree .box").forEach(function(b){
+      var nm=b.querySelector(".nm"); if(nm&&norm(nm.textContent).indexOf(t)>-1){found.push(b);b.classList.add("found");}
+    });
+  }
+  if(!t){gcount.textContent="";return;}
+  if(!found.length){gcount.textContent="Sin resultados";return;}
+  gNext();
+}
+function gNext(){
+  if(!found.length) return;
+  fi=(fi+1)%found.length;
+  gcount.textContent=(fi+1)+" de "+found.length;
+  readable();
+  var el=found[fi]; requestAnimationFrame(function(){centerOn(el);markCurrent(el);});
+}
+gq.addEventListener("input",gSearch);
+gq.addEventListener("keydown",function(e){
+  if(e.key==="Enter"){e.preventDefault();gNext();}
+  if(e.key==="Escape"){gq.value="";gSearch();}
+});
+document.getElementById("gnext").addEventListener("click",gNext);
+
+/* phone: the key opens from the "?" button */
+(function(){
+  var kb=document.getElementById("gkeybtn"),key=document.getElementById("gkey");
+  kb.addEventListener("click",function(e){
+    e.stopPropagation();
+    var open=!key.classList.contains("open");
+    key.classList.toggle("open",open); kb.setAttribute("aria-expanded",open?"true":"false");
+  });
+  document.addEventListener("click",function(e){
+    if(key.classList.contains("open")&&!key.contains(e.target)){key.classList.remove("open");kb.setAttribute("aria-expanded","false");}
+  });
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&key.classList.contains("open")){key.classList.remove("open");kb.setAttribute("aria-expanded","false");kb.focus();}
+  });
+})();
+
+if(location.hash==="#arbol") show("arbol");
+</script>
+
+</body></html>
