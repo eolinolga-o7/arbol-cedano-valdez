@@ -112,6 +112,20 @@ mark{background:var(--hit);color:inherit;padding:0 2px;border-radius:2px}
 .origin h2{font-family:var(--caps);font-weight:500;letter-spacing:.24em;font-size:15px;color:var(--muted);margin:0}
 .origin p{font-family:var(--display);font-size:clamp(22px,3vw,28px);line-height:1.3;margin:0;text-wrap:balance}
 .origin p em{color:var(--accent)}
+.blessing{margin:90px auto 0;max-width:760px;display:flex;flex-direction:column;align-items:center;gap:30px;text-align:center}
+.verse{margin:0;display:flex;flex-direction:column;align-items:center;gap:14px}
+.verse .orn{width:min(260px,60vw)}
+.verse blockquote{margin:0;font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(25px,3.4vw,34px);line-height:1.3;color:var(--ink);text-wrap:balance;max-width:30ch}
+.verse blockquote::before{content:"«";color:var(--gilt);margin-right:.08em}
+.verse blockquote::after{content:"»";color:var(--gilt);margin-left:.08em}
+.verse figcaption{font-family:var(--caps);letter-spacing:.24em;font-size:16px;color:var(--accent)}
+.prayer{width:100%;border:2px solid transparent;border-image:var(--fr-r) 30 fill / 30px stretch;padding:40px clamp(26px,6vw,64px) 42px;filter:drop-shadow(0 8px 16px rgba(90,70,30,.14));text-align:left}
+.prayer h2{margin:0 0 20px;text-align:center;font-family:"Pinyon Script","Snell Roundhand",cursive;font-weight:400;font-size:clamp(36px,5vw,46px);line-height:1.1;color:var(--ink)}
+.prayer p{margin:0 0 15px;font-size:19px;line-height:1.6;color:var(--ink);max-width:62ch;margin-inline:auto}
+.prayer p:first-of-type::first-letter{font-family:var(--display);font-size:3.1em;float:left;line-height:.82;margin:.06em .1em 0 0;color:var(--accent)}
+.prayer .amen{margin:22px 0 0;text-align:center;font-family:"Pinyon Script","Snell Roundhand",cursive;font-size:clamp(34px,4.6vw,42px);color:var(--accent)}
+.prayer .amen::before,.prayer .amen::after{content:"";display:inline-block;width:46px;border-top:1px solid var(--gilt);vertical-align:middle;margin:0 16px}
+@media (max-width:440px){.prayer p{font-size:18px}.prayer .amen::before,.prayer .amen::after{width:24px;margin:0 10px}}
 footer{margin-top:110px;text-align:center;font-size:14.5px;color:var(--muted);font-style:italic}
 
 /* tabs */
@@ -295,6 +309,29 @@ html{scroll-behavior:smooth}
   </div>
 
   <main class="leaves" id="leaves"></main>
+
+  <section class="blessing" aria-label="Salmo y oración">
+    <figure class="verse">
+      <svg class="orn" viewBox="0 0 320 28" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+        <path d="M8 14H118M202 14H312"/>
+        <path d="M118 14c10-10 22-10 30 0c-8 10-20 10-30 0Z"/>
+        <path d="M202 14c-10-10-22-10-30 0c8 10 20 10 30 0Z"/>
+        <circle cx="160" cy="14" r="5"/><circle cx="160" cy="14" r="1.6" fill="currentColor"/>
+      </svg>
+      <blockquote>Es como el árbol plantado a la orilla de un río que, cuando llega su tiempo, da fruto y sus hojas jamás se marchitan. Todo lo que hace prospera</blockquote>
+      <figcaption>Salmo 1:3</figcaption>
+    </figure>
+
+    <article class="prayer">
+      <h2>Oración por la familia</h2>
+      <p>Amado Dios y Padre nuestro. Hoy venimos ante ti agradecidos por nuestra familia. Queremos presentarte nuestro árbol familiar y pedirte que seas tú nuestro sustento.</p>
+      <p>Te pedimos que nos plantes junto a tus corrientes de agua. Que en nuestra casa nunca falte Tu Palabra, que busquemos Tu consejo antes de tomar decisiones y que Tu amor sea el alimento diario de nuestro corazón.</p>
+      <p>Ayúdanos a dar fruto en el tiempo correcto. Danos paciencia para los procesos de cada uno. Oramos para que en nuestras vidas se vea el fruto de Tu Espíritu: amor, alegría, paz, paciencia, amabilidad y bondad.</p>
+      <p>Protege nuestras hojas para que no se marchiten. Cuando vengan tormentas, crisis o vientos fuertes a nuestra familia, recuérdanos que estamos sostenidos por Ti. Que las dificultades no nos sequen, sino que hagan nuestras raíces aún más profundas.</p>
+      <p>Ponemos en Tus manos todo lo que emprendamos como familia, confiando en que prosperará bajo Tu bendición y Tu perfecta voluntad. En el nombre de Jesús,</p>
+      <p class="amen">¡Amén!</p>
+    </article>
+  </section>
   </section>
 
   <footer>Levantado a partir del documento «Sucesores de Modesto Cedano y Amelia Valdez» y sus anotaciones.</footer>
@@ -512,7 +549,7 @@ function frame(fill,stroke,inner,sw,dash,big){
   var V=big?90:60, o=1.5, r=big?16:11, o2=big?7:5.5, r2=big?12:8.5, E=V-o, E2=V-o2;
   function shape(o,r,E){return "M"+(o+r)+" "+o+"H"+(E-r)+"A"+r+" "+r+" 0 0 0 "+E+" "+(o+r)+"V"+(E-r)+"A"+r+" "+r+" 0 0 0 "+(E-r)+" "+E+"H"+(o+r)+"A"+r+" "+r+" 0 0 0 "+o+" "+(E-r)+"V"+(o+r)+"A"+r+" "+r+" 0 0 0 "+(o+r)+" "+o+"Z";}
   var d=big?3.6:2.6, k=big?4.5:3.4;
-  var svg="<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 "+V+" "+V+"'>"+
+  var svg="<svg xmlns='http://www.w3.org/2000/svg' width='"+V+"' height='"+V+"' viewBox='0 0 "+V+" "+V+"'>"+
     "<path d='"+shape(o,r,E)+"' fill='"+fill+"' stroke='"+stroke+"' stroke-width='"+sw+"'"+(dash?" stroke-dasharray='5 3.5'":"")+"/>"+
     "<path d='"+shape(o2,r2,E2)+"' fill='none' stroke='"+inner+"' stroke-width='.9' opacity='.75'/>"+
     "<g fill='"+inner+"'><circle cx='"+k+"' cy='"+k+"' r='"+d/2+"'/><circle cx='"+(V-k)+"' cy='"+k+"' r='"+d/2+"'/><circle cx='"+k+"' cy='"+(V-k)+"' r='"+d/2+"'/><circle cx='"+(V-k)+"' cy='"+(V-k)+"' r='"+d/2+"'/></g></svg>";
@@ -739,6 +776,7 @@ function drawGarden(){
   clear(".kicker,.couple,.facts",70,22,.92);
   clear(".fan",50,30,.8);
   clear(".tools",40,24,.88);
+  clear(".verse",110,70,.9);
   clear("footer",60,26,.92);
   c.globalCompositeOperation="source-over";
 }
